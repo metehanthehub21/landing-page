@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  font-family: 'Courier New', Courier, monospace;
+  height: 100%;
+  color: white;
+  background-image: linear-gradient(to bottom, 
+    #030a12, 
+    #06060e, 
+    #070409, 
+    #040203, 
+    #000000
+  );
+}
+
+ul {
+  list-style: none;
+  font-size: 18px;
+  display: flex;
+  padding: 2px;
+  margin: 2px;
+}
+
+li {
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #FF9B00;
+}
+
+li:hover {
+  transform: scale(1.1);
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+button {
+  border-radius: 10px;
+  border: 0;
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #FF9B00;
+  color: white;
+}
+
+/* Başlık */
+.başlık {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  height: 70px;
+}
+
+.logo-resim {
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.logo, .menü {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* ilkAlan */
+.ilkAlan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, 
+    #030a12, 
+    #06060e, 
+    #070409, 
+    #040203, 
+    #000000
+  );
+}
+
+.ilkAlanİçerik {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 30px;
+}
+
+.ilkAlanBaşlık {
+  display: flex;
+  text-align: start;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.ilkAlanBilgi {
+  display: flex;
+  font-weight: 500;
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+.ilkAlanResim {
+  display: flex;
+  align-self: flex-end;
+  padding: 0;
+  margin: 0;
+  justify-content: flex-end;
+  margin-bottom: -20px;
+}
+
+#ilkAlanButon {
+  display: flex;
+  flex-grow: 0;
+}
+
+/* anaAlan */
+.anaAlan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to bottom, 
+  #ff9b00, 
+  #ce642d, 
+  #8e3c32, 
+  #482024, 
+  #000000);
+}
+
+.anaAlanBaşlık {
+  display: flex;
+  text-align: start;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.anaAlanKartlar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 75px;
+}
+
+.anaAlanKart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.anaAlanKartResim {
+  height: 200px;
+  width: 200px;
+}
+
+/* özlüSöz */
+.özlüSöz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+  padding: 25px;
+}
+
+/* eylemeÇağrısı */
+.eylemÇağrısıArkaplan {
+  background-image: linear-gradient(to bottom, 
+    #000000, 
+    #040203, 
+    #070409, 
+    #06060e, 
+    #030a12
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eylemÇağrısı {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 25px;
+  border-radius: 15px;
+  background-image: linear-gradient(to bottom, 
+    #ff9b00, 
+    #ff8800, 
+    #ff7400, 
+    #ff5e00, 
+    #ff4200
+  );
+  width: 40%;
+}
+
+#eylemÇağrısıButon:hover {
+  transform: scale(1.05);
+  background-color: black;
+  color: white;
+}
+
+/* sayfaAltlığı */
+.sayfaAltlığı {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  background-color: black;
+  padding: 25px;
+}
+
